@@ -2,5 +2,60 @@ body{
   padding-top: 70px;
 }
 .row  {
-  padding-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.navbar-brand.logo-padding {
+  padding: 5px;
+}
+
+.col-noticias{
+  padding: 20px;
+}
+
+.logo-altura {
+  height:40px
+}
+
+.logo-altura img{
+  height: 100%;
+}
+.footer{
+  background-color: silver;
+  padding-top: 10px;
+}
+.btn {
+  clear:both;
+}
+
+.social {
+  padding-left: 0;
+}
+
+
+
+ul {
+  list-style-type: none;
+
+}
+
+
+/* Estilo pagina nosotros*/
+
+.jumbotron{
+  background-image: url(images/qsomos2.jpeg);
+  min-height: 380px;
+}
+
+/* Estilo pagina Noticias*/
+
+.media img{
+  height: 180px;
+  padding: 0px 20px 20px 20px;
+}
+@media (min-width: 1px) and (max-width: 300px)  {
+  .media { clear: both;
+
+  }
+
 }
